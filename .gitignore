@@ -1,0 +1,24 @@
+# Build output files
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+
+# Build folders
+build/
+bin/
+obj/
+out/
+output/
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+tmp/
+temp/
+*.log

@@ -22,7 +22,8 @@ int main() {
 
 //-------------- If-Else-If Statement Example in C++ --------------------
 
-
+#include <iostream>
+using namespace std;
 int main() {
     int age;
     cout << "Enter your age: ";
@@ -43,6 +44,10 @@ int main() {
 // ---------------- Nested If-Else Statement Example in C++ ----------------------
 
 
+
+#include <iostream>
+using namespace std;
+int main() {
 int number;
     cout << "Enter a number: ";
     cin >> number;
@@ -58,6 +63,53 @@ int number;
     }
 
     return 0;
+}
+
+
+
+// ---------------- Switch Example in C++ ----------------------
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int number;
+    cout << "Enter a number: ";
+    cin >> number;
+
+    switch (number) {
+        case 1:
+            cout << "One" << endl;
+            break;
+        case 2:
+            cout << "Two" << endl;
+            break;
+        case 3:
+            cout << "Three" << endl;
+            break;
+        default:
+            cout << "Number is not between 1 and 3." << endl;
+    }
+    return 0;
+}
+
+
+
+// ---------------- Ternary Operator Example in C++ (use for short tricks programs only) ----------------------
+
+
+
+#include <iostream>
+using namespace std;
+int main() {
+    int age;
+    cout << "Enter Your Age: ";
+    cin >> age;
+    (age > 5) ? cout << "You Can Vote" << endl : cout << "You Cannot Vote" << endl;
+    return 0;
+}
 
 
 */

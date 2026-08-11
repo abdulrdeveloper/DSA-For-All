@@ -1,1 +1,5 @@
-try https://dsa.chaicode.com/
+# DSA For All
+
+Add link to DSA Chaicode in guide.md
+
+- [DSA Chaicode](https://www.youtube.com/@DSAChaicode)

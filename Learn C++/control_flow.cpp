@@ -70,7 +70,6 @@ int number;
 // ---------------- Switch Example in C++ ----------------------
 
 
-
 #include <iostream>
 using namespace std;
 

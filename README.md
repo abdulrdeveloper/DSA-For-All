@@ -1,6 +1,6 @@
-# DSA JS
+# DSA TS
 
-Daily data structures and algorithms practice in JavaScript.
+Daily data structures and algorithms practice in TypeScript.
 
 ## Goal
 
